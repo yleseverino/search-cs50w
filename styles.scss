@@ -65,9 +65,8 @@ label{
     text-transform: uppercase;
 }
 
-#advanced > input{
- width: 70%;
- 
+#advanced input{
+    width: 50%;
 }
 
 #advanced > input[type="submit"]{
@@ -80,4 +79,15 @@ label{
     font-weight: 600;
     padding: 1em;
     color: $color;
+}
+
+form > div {
+    margin: 0.5em;
+    width: 100%;
+    text-align: start;
+}
+label {
+    width: 300px;
+    text-align: start;
+    display: inline-block;
 }
